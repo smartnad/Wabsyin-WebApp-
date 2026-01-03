@@ -52,8 +52,8 @@ export function Navbar() {
                             <Image
                                 src="/images/logo-icon.png"
                                 alt="Wabsyin Logo"
-                                width={32}
-                                height={32}
+                                width={50}
+                                height={50}
                                 className="rounded-full object-cover"
                             />
                             Wabsyin

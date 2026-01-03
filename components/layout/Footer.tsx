@@ -18,7 +18,7 @@ export function Footer() {
                     {/* Brand Column */}
                     <div className="sm:col-span-2 md:col-span-1 space-y-4">
                         <Link href="/" className="flex items-center gap-2">
-                            <Image src="/images/logo-icon.png" alt="Wabsyin Logo" width={32} height={32} className="rounded-full object-cover" />
+                            <Image src="/images/logo-icon.png" alt="Wabsyin Logo" width={50} height={50} className="rounded-full object-cover" />
                             <span className="font-display font-bold text-xl tracking-tight text-foreground">Wabsyin</span>
                         </Link>
                         <p className="text-muted-foreground leading-relaxed text-sm max-w-xs">
