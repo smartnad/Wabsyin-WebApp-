@@ -18,6 +18,11 @@ const outfit = Outfit({
 export const metadata: Metadata = {
   title: "Wabsyin | Premium Web App & Product Design Agency",
   description: "Wabsyin is a high-performance web app and product design agency building startup-grade SaaS solutions.",
+  icons: {
+    icon: '/images/logo-icon.png',
+    shortcut: '/images/logo-icon.png',
+    apple: '/images/logo-icon.png',
+  },
 };
 
 import { Navbar } from "@/components/layout/Navbar";

@@ -7,6 +7,7 @@ import { cn } from "@/lib/utils";
 import { motion, useScroll, useMotionValueEvent, AnimatePresence } from "framer-motion";
 import { useState } from "react";
 import { Menu, X, ArrowRight } from "lucide-react";
+import Image from "next/image";
 
 const navLinks = [
     { name: "About", href: "/about" },
@@ -48,7 +49,13 @@ export function Navbar() {
 
                     <Link href="/" className="flex items-center gap-2 z-50 mr-8" onClick={() => setIsMobileMenuOpen(false)}>
                         <span className="font-display font-bold text-2xl tracking-tight text-foreground flex items-center gap-2">
-                            <span className="w-8 h-8 rounded-lg bg-gradient-to-br from-primary to-secondary flex items-center justify-center text-white text-lg">W</span>
+                            <Image
+                                src="/images/logo-icon.png"
+                                alt="Wabsyin Logo"
+                                width={32}
+                                height={32}
+                                className="rounded-full object-cover"
+                            />
                             Wabsyin
                         </span>
                     </Link>

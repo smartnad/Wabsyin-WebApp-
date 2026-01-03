@@ -3,6 +3,7 @@
 import { motion } from "framer-motion";
 import Link from "next/link";
 import { Github, Twitter, Linkedin } from "lucide-react";
+import Image from "next/image";
 
 export function Footer() {
     return (
@@ -17,7 +18,7 @@ export function Footer() {
                     {/* Brand Column */}
                     <div className="sm:col-span-2 md:col-span-1 space-y-4">
                         <Link href="/" className="flex items-center gap-2">
-                            <span className="w-8 h-8 rounded-lg bg-gradient-to-br from-primary to-secondary flex items-center justify-center text-white text-lg font-bold">W</span>
+                            <Image src="/images/logo-icon.png" alt="Wabsyin Logo" width={32} height={32} className="rounded-full object-cover" />
                             <span className="font-display font-bold text-xl tracking-tight text-foreground">Wabsyin</span>
                         </Link>
                         <p className="text-muted-foreground leading-relaxed text-sm max-w-xs">
